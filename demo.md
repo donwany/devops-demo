@@ -19,11 +19,16 @@ git checkout <branch-name>
 # commit to new branch
 git push -u origin <new-branch-name>
 
-<<<<<<< HEAD
-=======
 # merge branch
 git merge <new-branch-name>
 
 # delete a branch
 git branch -d <branch-name>
->>>>>>> theo
+
+# create a new branch and switch to it
+git checkout -b <dev> <main>
+
+# check status
+git status
+
+#
